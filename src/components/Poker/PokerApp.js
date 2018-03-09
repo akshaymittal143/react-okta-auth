@@ -251,7 +251,7 @@ export default class PokerApp extends React.Component{
         $.get("http://localhost:8080/api/v1/drawCard",
             function (data) {
                 self.setState(prevState => ({
-                    cardImage: prevState.cardImage.concat("/cards/" + data + ".svg"),
+                    cardImage: prevState.cardImage.concat("/static/cards/" + data + ".svg"),
                     cards: prevState.cards.concat(data),
                     currentBet: 5
                 }))

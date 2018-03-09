@@ -1,0 +1,41 @@
+span {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    width: 70px;
+}
+
+.selected {
+    background-color: #EEE;
+    color: #DDD;
+    cursor: not-allowed;
+}
+
+.used {
+    background-color: #aaddaa;
+    color: #99bb99;
+    cursor: not-allowed;
+}
+
+img {
+    height: 200px;
+    width: 100px;
+}
+
+body{
+    background-image: url("cards/table.png");
+
+    height: 100%;
+
+    /* Center and scale the image nicely */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
