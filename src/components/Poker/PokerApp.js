@@ -1,7 +1,7 @@
 import React from 'react';
 import PlayerContainer from './PlayerContainer';
 import $ from 'jquery';
-import BackgroundImage from './BackgroundImage'
+
 
 const DrawButton = (props) => {
 
@@ -64,6 +64,7 @@ const PotContainer = (props) => {
         </div>
     )
 }
+
 
 
 export default class PokerApp extends React.Component{

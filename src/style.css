@@ -23,15 +23,11 @@ img {
 }
 
 body{
-    background: url("./components/Poker/cards/table.png");
-
+    background: url("./cards/table.png");
     height: 100%;
-
     /* Center and scale the image nicely */
-
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .App {

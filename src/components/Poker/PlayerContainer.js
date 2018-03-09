@@ -1,13 +1,15 @@
 import React from 'react';
 
+
 export default class PlayerContainer extends React.Component{
-
-    state={
-        playerMoney: 200,
-        cardsDrawn: false,
-        winningsCollected: false
+    constructor(props) {
+        super(props)
+        this.state = {
+            playerMoney: 200,
+            cardsDrawn: false,
+            winningsCollected: false
+        }
     }
-
     call = () => {
         console.log(this.props.currentBet + " " + this.props.amountPaid)
         var amountToRemove = this.props.currentBet - this.props.amountPaid;
@@ -59,9 +61,12 @@ export default class PlayerContainer extends React.Component{
                      style={{maxWidth: '200px'}}>
                     {this.props.playerCards.map((cardImage, i) =>
                         <span key={i}>
-									<img src={cardImage}/><br/>
-								</span>
+									<img src={(cardImage)}/><br/>
+
+
+											</span>
                     )}
+
                 </div><br />
                 Bank: ${this.state.playerMoney}
 
