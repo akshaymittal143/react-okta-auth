@@ -1,7 +1,7 @@
 import React from 'react';
 import PlayerContainer from './PlayerContainer';
 import $ from 'jquery';
-
+import BackgroundImage from './BackgroundImage'
 
 const DrawButton = (props) => {
 
