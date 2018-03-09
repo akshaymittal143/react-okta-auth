@@ -23,7 +23,7 @@ img {
 }
 
 body{
-    background-image: url("cards/table.png");
+    background-image: url("/static/cards/table.png");
 
     height: 100%;
 

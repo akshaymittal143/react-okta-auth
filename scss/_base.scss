@@ -3,6 +3,15 @@ body{
   padding: 0;
   font-family: $font-stack;
   color: $primary-color;
+  background-image: url("/src/components/Poker/cards/table.png");
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 a{
