@@ -1,7 +1,7 @@
 import React from 'react';
 import PlayerContainer from './PlayerContainer';
 import $ from 'jquery';
-
+import Clock from './Clock'
 
 const DrawButton = (props) => {
 
@@ -345,7 +345,7 @@ export default class PokerApp extends React.Component{
 
                     <RestartButton restartGame={this.restartGame}
                                    winners={this.state.winners}/>
-
+                    <Clock/>
                     <PotContainer pot={this.state.pot} />
 
                     <CardContainer cards={this.state.cardImage} />

@@ -38,6 +38,7 @@ body{
 
 .button {
 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     color: black;
     padding: 5px 5px;
     text-align: center;
@@ -45,4 +46,11 @@ body{
     display: inline-block;
     font-size: 16px;
     border-radius: 10%;
+}
+
+div.clock{
+    position: fixed;
+    right: 100px;
+    font-size: 24px;
+    color: black;
 }

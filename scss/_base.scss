@@ -14,3 +14,11 @@ a{
     color: $accent-color;
   }
 }
+
+
+button{
+  &:hover{
+    text-decoration: underline;
+    color: $primary-color;
+  }
+}
