@@ -96,28 +96,28 @@ export default class PokerApp extends React.Component{
         $.get("http://localhost:8080/api/v1/drawCard",
             function (data) {
                 self.setState(prevState => ({
-                    player1Image: prevState.player1Image.concat("/cards/" + data + ".svg"),
+                    player1Image: prevState.player1Image.concat("/static/cards/" + data + ".svg"),
                     player1: prevState.player1.concat(data)}))
             }
         )
         $.get("http://localhost:8080/api/v1/drawCard",
             function (data) {
                 self.setState(prevState => ({
-                    player1Image: prevState.player1Image.concat("/cards/" + data + ".svg"),
+                    player1Image: prevState.player1Image.concat("static/cards/" + data + ".svg"),
                     player1: prevState.player1.concat(data)}))
             }
         )
         $.get("http://localhost:8080/api/v1/drawCard",
             function (data) {
                 self.setState(prevState => ({
-                    player2Image: prevState.player2Image.concat("/cards/" + data + ".svg"),
+                    player2Image: prevState.player2Image.concat("static/cards/" + data + ".svg"),
                     player2: prevState.player2.concat(data)}))
             }
         )
         $.get("http://localhost:8080/api/v1/drawCard",
             function (data) {
                 self.setState(prevState => ({
-                    player2Image: prevState.player2Image.concat("/cards/" + data + ".svg"),
+                    player2Image: prevState.player2Image.concat("static/cards/" + data + ".svg"),
                     player2: prevState.player2.concat(data)}))
             }
         )
