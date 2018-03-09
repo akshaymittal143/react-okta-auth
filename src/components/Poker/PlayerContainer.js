@@ -62,8 +62,6 @@ export default class PlayerContainer extends React.Component{
                     {this.props.playerCards.map((cardImage, i) =>
                         <span key={i}>
 									<img src={(cardImage)}/><br/>
-
-
 											</span>
                     )}
 
